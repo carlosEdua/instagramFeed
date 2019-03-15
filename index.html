@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>gallery</title>
+</head>
+<body>
+	
+	<div id="instafeed"></div>
+	<script src="instafeed.js"></script>
+	<!--specifications-->
+	<script>
+		let feed = new Instafeed({
+			get: 'tagged',
+        tagName: 'awesome',
+        clientId: '9354ae3ff7474c1ab51ed0018a22765a'
+		});
+	</script>
+</body>
+</html>
