@@ -3,18 +3,28 @@
 <head>
 	<meta charset="UTF-8">
 	<title>gallery</title>
+	<link rel="stylesheet" href="css/gallery.css">
+	<link rel="stylesheet" href="./lightbox2-master/src/css/lightbox.css">
+	<script src="js/jquery.js"></script>
+	<script src="./lightbox2-master/src/js/lightbox.js"></script>
 </head>
 <body>
-	
-	<div id="instafeed"></div>
-	<script src="instafeed.js"></script>
-	<!--specifications-->
-	<script>
-		let feed = new Instafeed({
-			get: 'tagged',
-        tagName: 'awesome',
-        clientId: '9354ae3ff7474c1ab51ed0018a22765a'
-		});
-	</script>
+
+	<div class="presentation">
+		<h1>the gallery</h1>
+		<div class="input-container">
+			<input type="text" id="inputUsername" placeholder="your instagram username">
+			<button onclick="search()">view pics</button>
+		</div>
+	</div>
+	<section class="gallery-container">
+
+	</section>
+
+	<!--accessToken: '9490358387.8e55d2b.b7c7d044af9e4ff5872fde2b068803c0'-->
+	<script src="js/axios.js"></script>
+
+	<script src="js/gallery.js"></script>
+
 </body>
 </html>

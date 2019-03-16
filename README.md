@@ -1,2 +1,2 @@
 # instagramFeed
-a instagram gallery with help from instafeed.js
+a instagram gallery with helped by lightbox.js
